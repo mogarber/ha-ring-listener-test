@@ -1,0 +1,5 @@
+{
+  "name": "Ring (event listener watchdog test)",
+  "render_readme": true,
+  "homeassistant": "2026.10.1"
+}
