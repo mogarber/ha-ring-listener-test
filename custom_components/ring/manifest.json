@@ -38,8 +38,8 @@
   ],
   "quality_scale": "bronze",
   "requirements": [
-    "ring-doorbell @ https://github.com/mogarber/python-ring-doorbell/archive/31c084d7c6ad5065548b9b4775e8b058617abfd4.zip"
+    "ring-doorbell @ https://github.com/mogarber/python-ring-doorbell/archive/38defb2f0981e424c494911ea8f4d9c65b623f7c.zip"
   ],
-  "version": "2026.10.1.1",
+  "version": "2026.10.1.2",
   "issue_tracker": "https://github.com/home-assistant/core/issues/157764"
 }

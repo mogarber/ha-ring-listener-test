@@ -14,7 +14,8 @@ version plus:
   [mogarber/python-ring-doorbell@test/listener-health](https://github.com/mogarber/python-ring-doorbell/tree/test/listener-health),
   which combines
   [python-ring-doorbell#559](https://github.com/python-ring-doorbell/python-ring-doorbell/pull/559)
-  with [python-ring-doorbell#555](https://github.com/python-ring-doorbell/python-ring-doorbell/pull/555).
+  with [python-ring-doorbell#555](https://github.com/python-ring-doorbell/python-ring-doorbell/pull/555)
+  and [python-ring-doorbell#556](https://github.com/python-ring-doorbell/python-ring-doorbell/pull/556).
 
 This is for testing only. Remove it from HACS and restart to go back to the
 built-in integration; the existing Ring config entry is reused either way.
