@@ -4,7 +4,7 @@ Temporary test build of Home Assistant's built-in Ring integration for
 [home-assistant/core#157764](https://github.com/home-assistant/core/issues/157764)
 (doorbell and motion events silently stop until the integration is reloaded).
 
-It overrides the built-in `ring` integration with the Home Assistant 2026.10.1
+It overrides the built-in `ring` integration with the Home Assistant 2026.11.0
 version plus:
 
 - a watchdog that restarts the Ring event listener when it stops, marks event
@@ -15,7 +15,13 @@ version plus:
   which combines
   [python-ring-doorbell#559](https://github.com/python-ring-doorbell/python-ring-doorbell/pull/559)
   with [python-ring-doorbell#555](https://github.com/python-ring-doorbell/python-ring-doorbell/pull/555)
-  and [python-ring-doorbell#556](https://github.com/python-ring-doorbell/python-ring-doorbell/pull/556).
+  [python-ring-doorbell#556](https://github.com/python-ring-doorbell/python-ring-doorbell/pull/556),
+  and a fix that keeps the push client running on Web Push headers
+  firebase-messaging cannot parse
+  ([branch](https://github.com/mogarber/python-ring-doorbell/tree/fix/fcm-webpush-headers)).
+
+Only use it with the Home Assistant version above. An older build of this
+override broke Ring when Home Assistant was updated to 2026.11.0.
 
 This is for testing only. Remove it from HACS and restart to go back to the
 built-in integration; the existing Ring config entry is reused either way.

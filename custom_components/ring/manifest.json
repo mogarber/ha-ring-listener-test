@@ -1,10 +1,17 @@
 {
   "domain": "ring",
   "name": "Ring",
+  "categories": [
+    "security_safety.doorbells_intercoms",
+    "security_safety.cameras"
+  ],
   "codeowners": [
     "@sdb9696"
   ],
   "config_flow": true,
+  "connectivity": [
+    "cloud"
+  ],
   "dependencies": [
     "ffmpeg"
   ],
@@ -38,8 +45,8 @@
   ],
   "quality_scale": "bronze",
   "requirements": [
-    "ring-doorbell @ https://github.com/mogarber/python-ring-doorbell/archive/38defb2f0981e424c494911ea8f4d9c65b623f7c.zip"
+    "ring-doorbell @ https://github.com/mogarber/python-ring-doorbell/archive/c4c9456f2f0ca26f2771f186112810b74874f03f.zip"
   ],
-  "version": "2026.10.1.2",
+  "version": "2026.11.0.1",
   "issue_tracker": "https://github.com/home-assistant/core/issues/157764"
 }
